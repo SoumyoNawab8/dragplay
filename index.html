@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header>
+            <nav class="navbar navbar-light bg-light">
+                    <span id="nav-titl">Playground</span>
+                  </nav>
+                  
+    </header>
+   <main>
+        <center>
+                <div class="container">
+                    <div class="row">
+                      <div class="col-sm-3" id="redRoom" ondrop="drop(event)" ondragover="letDrop(event)">
+                        <b>Court A</b><br/>
+                        <i class="rTeam fas fa-child" id="rt1" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                        <i class="rTeam fas fa-child" id="rt2" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                        <i class="rTeam fas fa-child" id="rt3" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                        <i class="rTeam fas fa-child" id="rt4" draggable="true"  ondrop="drop()" ondragover="letDrop()"  ondragstart="dragging(event)" ></i>
+                        <i class="rTeam fas fa-child" id="rt5" draggable="true"  ondrop="drop()" ondragover="letDrop()"  ondragstart="dragging(event)" ></i>
+                      </div>
+                      <div class="col-sm-3" id="greenRoom" ondrop="drop(event)" ondragover="letDrop(event)">
+                        <b>Court B</b><br/>
+                        <i class="gTeam fas fa-child" id="gt1" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                        <i class="gTeam fas fa-child" id="gt2" draggable="true"  ondrop="drop()" ondragover="letDrop()"  ondragstart="dragging(event)" ></i>
+                        <i class="gTeam fas fa-child" id="gt3" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                        <i class="gTeam fas fa-child" id="gt4" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                        <i class="gTeam fas fa-child" id="gt5" draggable="true" ondrop="drop()" ondragover="letDrop()"   ondragstart="dragging(event)" ></i>
+                      </div>
+                      <div class="col-sm-3" id="blueRoom" ondrop="drop(event)" ondragover="letDrop(event)">
+                        <b>Court C</b><br/>
+                        <i class="bTeam fas fa-child" id="bt1" draggable="true" ondrop="drop()" ondragover="letDrop()" ondragstart="dragging(event)" ></i>
+                        <i class="bTeam fas fa-child" id="bt2" draggable="true" ondrop="drop()" ondragover="letDrop()" ondragstart="dragging(event)" ></i>
+                        <i class="bTeam fas fa-child" id="bt3" draggable="true" ondrop="drop()" ondragover="letDrop()" ondragstart="dragging(event)" ></i>
+                        <i class="bTeam fas fa-child" id="bt4" draggable="true" ondrop="drop()" ondragover="letDrop()" ondragstart="dragging(event)" ></i>
+                        <i class="bTeam fas fa-child" id="bt5" draggable="true" ondrop="drop()" ondragover="letDrop()" ondragstart="dragging(event)" ></i>
+                        
+                      </div>
+                    
+                    </div>
+                    <p>Drag and drop the players from one court to another to exchange player.</p>
+                 </div>
+        </center>
+   </main>
+
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

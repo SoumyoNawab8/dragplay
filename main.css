@@ -1,0 +1,35 @@
+i.rTeam,i.gTeam,i.bTeam{
+    font-size: 3em;
+    
+}
+i.rTeam{
+    color: red;
+}
+.col-sm-3{
+    border-style: solid;
+    padding: 1em;
+}
+i.gTeam{
+    color:green;
+}
+i.bTeam{
+    color:blue;
+}
+span#nav-titl{
+    text-align: center;
+    font-size: x-large;
+}
+main{
+    margin-top: 1em;
+}
+#groundhold{
+    margin-top: 1em;
+    background: #28f625;
+}
+#sideA{
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: -webkit-fill-available;
+    color: white;
+}
