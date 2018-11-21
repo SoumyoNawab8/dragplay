@@ -22,14 +22,3 @@ span#nav-titl{
 main{
     margin-top: 1em;
 }
-#groundhold{
-    margin-top: 1em;
-    background: #28f625;
-}
-#sideA{
-    border-right-color: white;
-    border-right-style: solid;
-    border-right-width: 1px;
-    height: -webkit-fill-available;
-    color: white;
-}
